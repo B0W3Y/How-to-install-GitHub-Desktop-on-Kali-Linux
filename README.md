@@ -28,23 +28,23 @@ Open your terminal and run these commands in sequence:
 
 Ensures your system trusts the official package mirror signatures:
 
-\```bash
+```bash
 sudo mkdir -p /etc/apt/keyrings
 wget -qO - https://mirror.mwt.me/shiftkey-desktop/gpgkey | gpg --dearmor | sudo tee /etc/apt/keyrings/mwt-desktop.gpg > /dev/null
-\```
+```
 
 ### 2️⃣ Add the Package Repository
 
 Registers the repository source into your APT sources list:
 
-\```bash
+```bash
 sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/mwt-desktop.gpg] https://mirror.mwt.me/shiftkey-desktop/deb/ any main" > /etc/apt/sources.list.d/mwt-desktop.list'
-\```
+```
 
 ### 3️⃣ Update & Install
 
 Refreshes package lists and installs GitHub Desktop cleanly:
 
-\```bash
+```bash
 sudo apt update && sudo apt install github-desktop -y
-\```
+```
