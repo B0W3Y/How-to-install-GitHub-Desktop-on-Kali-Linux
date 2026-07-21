@@ -16,7 +16,7 @@ This repository provides the exact terminal commands required to add the reposit
 
 ---
 
-## 📷 Quick tutorial that guides installation 
+## 📷 Quick tutorial that guides installation (Click Video Thumbnail)
 
 [![Watch the video](https://img.youtube.com/vi/2qHq1DTjRsw/hqdefault.jpg)](https://www.youtube.com/watch?v=2qHq1DTjRsw)
 
